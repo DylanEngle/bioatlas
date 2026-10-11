@@ -1,0 +1,37 @@
+scientificName,commonName,taxonomicGroup,eventDate,decimalLatitude,decimalLongitude,countryCode
+Anolis carolinensis,Green anole,Reptile,2025-03-14,28.5383,-81.3792,US
+Anolis carolinensis,Green anole,Reptile,2025-04-02,28.565,-81.35,US
+Anolis carolinensis,Green anole,Reptile,2025-05-19,28.612,-81.3,US
+Lithobates sphenocephalus,Southern leopard frog,Amphibian,2025-03-22,28.601,-81.27,US
+Lithobates sphenocephalus,Southern leopard frog,Amphibian,2025-04-11,28.49,-81.42,US
+Quiscalus quiscula,Common grackle,Bird,2025-02-18,28.5383,-81.3792,US
+Quiscalus quiscula,Common grackle,Bird,2025-03-05,28.59,-81.36,US
+Mimus polyglottos,Northern mockingbird,Bird,2025-01-25,28.5383,-81.3792,US
+Mimus polyglottos,Northern mockingbird,Bird,2025-03-17,28.575,-81.41,US
+Danaus plexippus,Monarch,Insect,2025-02-09,28.52,-81.4,US
+Danaus plexippus,Monarch,Insect,2025-03-29,28.58,-81.37,US
+Papilio glaucus,Eastern tiger swallowtail,Insect,2025-04-08,28.54,-81.36,US
+Papilio glaucus,Eastern tiger swallowtail,Insect,2025-05-12,28.6,-81.35,US
+Sciurus carolinensis,Eastern gray squirrel,Mammal,2025-01-12,28.5383,-81.3792,US
+Sciurus carolinensis,Eastern gray squirrel,Mammal,2025-02-26,28.555,-81.345,US
+Procyon lotor,Raccoon,Mammal,2025-03-02,28.51,-81.43,US
+Procyon lotor,Raccoon,Mammal,2025-05-04,28.585,-81.385,US
+Ardea alba,Great egret,Bird,2025-02-14,28.47,-81.37,US
+Ardea alba,Great egret,Bird,2025-04-27,28.495,-81.33,US
+Trachemys scripta,Pond slider,Reptile,2025-03-09,28.505,-81.355,US
+Trachemys scripta,Pond slider,Reptile,2025-05-21,28.53,-81.34,US
+Cyanocitta cristata,Blue jay,Bird,2025-01-31,28.56,-81.395,US
+Cyanocitta cristata,Blue jay,Bird,2025-03-24,28.59,-81.42,US
+Bombus impatiens,Common eastern bumble bee,Insect,2025-04-19,28.545,-81.405,US
+Bombus impatiens,Common eastern bumble bee,Insect,2025-05-26,28.595,-81.365,US
+Didelphis virginiana,Virginia opossum,Mammal,2025-02-07,28.48,-81.41,US
+Didelphis virginiana,Virginia opossum,Mammal,2025-04-23,28.515,-81.385,US
+Pelecanus occidentalis,Brown pelican,Bird,2025-03-11,28.43,-81.3,US
+Pelecanus occidentalis,Brown pelican,Bird,2025-05-15,28.455,-81.285,US
+Sistrurus miliarius,Pygmy rattlesnake,Reptile,2025-04-30,28.615,-81.415,US
+Sistrurus miliarius,Pygmy rattlesnake,Reptile,2025-06-12,28.585,-81.405,US
+Crotalus adamanteus,Eastern diamondback rattlesnake,Reptile,2025-05-07,28.64,-81.44,US
+Setophaga coronata,Yellow-rumped warbler,Bird,2025-01-19,28.49,-81.345,US
+Setophaga coronata,Yellow-rumped warbler,Bird,2025-02-23,28.515,-81.32,US
+Lepomis macrochirus,Bluegill,Fish,2025-03-27,28.475,-81.35,US
+Lepomis macrochirus,Bluegill,Fish,2025-05-18,28.5,-81.3,US
