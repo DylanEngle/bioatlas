@@ -1,5 +1,6 @@
 import pandas as pd
 import inquirer
+import matplotlib.pyplot as plt
 
 def get_taxonomic_group(df):
     try:
@@ -23,14 +24,31 @@ def get_taxonomic_group(df):
 def get_taxonomic_groups_from_df(df):
     taxonomic_groups = df["taxonomicGroup"].unique()
     return taxonomic_groups
+
+def get_top_ten_recorded_species(df):
+    grouped_species = df.value_counts("commonName")
+    return grouped_species.head(10)
+    
+
+def produce_dataset_chart(df):
+    top_ten_species_df = get_top_ten_recorded_species(df)
+    plt.bar(top_ten_species_df.index, top_ten_species_df.values, color='skyblue')
+
+    # Rotate labels and add padding
+    plt.xticks(rotation=45, ha='right', fontsize=12)
+    plt.tight_layout()  # Adjust layout for rotated labels
+
+    # Adding labels and title
+    plt.xlabel("Animal name")
+    plt.ylabel("Count")
+    plt.title("Top ten animal species recorded")
+
+    plt.show()
     
 
 def main():
-    print("Starting out.")
     df = pd.read_csv("./data/bioatlas_sample_observations.csv")
-    taxonomic_group = get_taxonomic_group(df)
-    result = df.query("taxonomicGroup == @taxonomic_group")
-    print(result)
+    produce_dataset_chart(df)
 
 if __name__ == "__main__":
     main()
